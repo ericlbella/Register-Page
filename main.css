@@ -1,23 +1,103 @@
-{box-sizing: border-box}
-
-/* Add padding to containers */
-.container {
-    padding: 16px;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2299ff;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-/* Full-width input fields */
-input [type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
+#nav {
+    text-align: right;
+    padding: 25px 10px;
+    background-color: white;
+    margin: 0px 0px 75px 0px;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 3px 5px darkgray;
 }
 
-input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
+#nav a {
+    padding: 8px 20px;
+    margin: 10px;
+    background-color: #0080ff;
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    color: white;
+}
+
+nav a:hover {
+    border: 1px solid black;
+    background-color: lightgray;
+    color: black;
+    transition: 2s;
+}
+
+#form {
+    width: 300px;
+    margin: auto;
+    padding: 30px 25px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 4px 4px 12px darkgray;
+}
+
+#form h1 {
+    margin: 10px;
+}
+
+#inputDiv {
+    text-align: center;
+}
+
+#form input, #form button {
+    margin: 13px 0px;
+    width: 90%;
+    padding: 7px;
     outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+#form input:hover {
+    border: 1px solid black;
+    transition: .2s;
+}
+
+#form #submit {
+    width: 95%;
+    font-weight: bold;
+    margin-bottom: 5px;
+    background-color: #0080ff;
+    color: white;
+    cursor: pointer;
+}
+
+#form #submit:hover {
+    background-color: lightgray;
+    color: black;
+    transition: .2s;
+}
+
+#images {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#images a {
+    text-decoration: none;
+}
+
+.social-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    margin: 0px 5px;
+    border: 2px solid lightgray;
+}
+
+.social-image:hover {
+    border: 2px solid #0080ff;
+    transition: .2s;
 }
 
 /* Overwrite default styles of hr */
@@ -25,48 +105,3 @@ hr {
     border: 1px solid #f1f1f1;
     margin-bottom: 25 px;
 } 
-
-/* Set a style for the submit button */
-.submitbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
-
-.submitbtn:hover {
-    opacity:1;
-}
-
-/* Add a blue text color to links */
-a {
-    color: dodgerblue;
-}
-
-/* Set a grey background*/
-.signin {
-    background-color: #f1f1f1;
-    text-align: center;
-}
-
-body{
-    margin: 0;
-    background-color: #f1f1f1;
-}
-
-.navbar {
-    background-color: #f1f1f1;
-    padding: 15px;
-    text-align: right;
-}
-
-.nav-link{
-    background-color: blue;
-    color: white;
-    padding: .5rem;
-    border-radius: 50px;
-}
